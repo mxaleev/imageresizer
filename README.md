@@ -1,4 +1,4 @@
-# MXUtils ImageResizer – A simple image resizing library for PH
+# MXUtils ImageResizer – A simple image resizing library for PHP
 
 ## Features
 - Easy to use
