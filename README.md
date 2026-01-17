@@ -13,7 +13,7 @@ This software is distributed under the [MIT](https://opensource.org/license/mit)
 PHPMailer is available on [Packagist](https://packagist.org/packages/mikhailkhaleev/mx-utils.imageresizer) (using semantic versioning), and installation via [Composer](https://getcomposer.org) is the recommended way to install PHPMailer. Just add this line to your `composer.json` file:
 
 ```json
-"mx-utils/imageresizer": "^0.2.1"
+"mx-utils/imageresizer": "^0.2.2"
 ```
 
 or run
