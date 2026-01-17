@@ -247,7 +247,12 @@ class Resizer
         array &$unsupportedFiles
     ): void {
         $sourcePath = $sourceDir . DIRECTORY_SEPARATOR . $filename;
-        $outputFilename = pathinfo($filename, PATHINFO_FILENAME) . $suffix . '.' . pathinfo($filename, PATHINFO_EXTENSION);
+
+        $outputFilename = pathinfo($filename, PATHINFO_FILENAME)
+            . '_'.$width.'x'.$height.'_'
+            . $suffix . '.'
+            . pathinfo($filename, PATHINFO_EXTENSION);
+
         $outputPath = $outputDir . DIRECTORY_SEPARATOR . $outputFilename;
 
         // Валидация файла
