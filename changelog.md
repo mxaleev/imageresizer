@@ -1,0 +1,10 @@
+# MXUtils ImageResizer Change Log
+
+## Version 0.2.1 (January 17th, 2026)
+* Оптимизированы методы классов
+
+## Version 0.2.0 (January 9th, 2026)
+* Добавлен параметр для настройки увеличивать или не увеличивать картинки меньше указанного размера ресайза
+
+## Version 0.1.0 (January 8th, 2026)
+* Initial public release

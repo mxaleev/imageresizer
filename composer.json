@@ -1,0 +1,45 @@
+{
+  "name": "mx-utils/imageresizer",
+  "type": "library",
+  "description": "A simple image resizing library for PHP",
+  "keywords": [
+    "imageresizer",
+    "mx-utils",
+    "mikhailkhaleev",
+    "khaleev",
+    "xaleev"
+  ],
+  "homepage": "https://xaleev.ru/",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-iconv": "*",
+    "ext-intl": "*",
+    "ext-fileinfo": "*",
+    "ext-gd": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MXUtils\\ImageResizer\\": "src/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "8.2"
+    },
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "authors": [
+    {
+      "name": "Mikhail Khaleev",
+      "email": "mxaleev@gmail.com",
+      "role": "Author"
+    }
+  ],
+  "minimum-stability": "stable"
+}
