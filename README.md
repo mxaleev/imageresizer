@@ -7,10 +7,10 @@
 - Limiting the size of the file being processed
 
 ## License
-This software is distributed under the [MIT](https://opensource.org/license/mit) license. Please read [LICENSE](https://github.com/mxaleev/mx-utils.imageresizer/blob/master/LICENSE) for information on the software availability and distribution.
+This software is distributed under the [MIT](https://opensource.org/license/mit) license. Please read [LICENSE](https://github.com/mxaleev/imageresizer/blob/main/LICENSE.md) for information on the software availability and distribution.
 
 ## Installation & loading
-PHPMailer is available on [Packagist](https://packagist.org/packages/mikhailkhaleev/mx-utils.imageresizer) (using semantic versioning), and installation via [Composer](https://getcomposer.org) is the recommended way to install PHPMailer. Just add this line to your `composer.json` file:
+ImageResizer is available on [Packagist](https://packagist.org/packages/mx-utils/imageresizer) (using semantic versioning), and installation via [Composer](https://getcomposer.org) is the recommended way to install ImageResizer. Just add this line to your `composer.json` file:
 
 ```json
 "mx-utils/imageresizer": "^0.2.2"
